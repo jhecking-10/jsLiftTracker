@@ -1,3 +1,3 @@
 function clickStartButton() {
-  // pass
+  console.log("Button pressed!")
 }
