@@ -1,21 +1,43 @@
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#appTitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+hr {
+  height: 2px;
+  border: none;
+  background-color: black;
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
 body {
-    background-color: slategray;
+  background-color: slategray;
 }
 
-button {
-    width: 80px;
-    height: 50px;
-    border: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkslategray;
-    background-color: mediumseagreen;
-    cursor: pointer;
+.buttons {
+  text-align: center;
+}
+
+#routineButton {
+  width: 80px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color: mediumseagreen;
+  cursor: pointer;
+}
+
+#historyButton {
+  width: 80px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color: lightseagreen;
+  cursor: pointer;
 }
