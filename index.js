@@ -1,11 +1,8 @@
-function clickRoutineButton() {
-  console.log(
-    "Routine button pressed! It doesn't do anything yet."
-  );
-}
-
-function clickHistoryButton() {
-  console.log(
-    "History button pressed! It doesn't do anything yet."
-  );
-}
+const buttons = {
+  clickRoutineButton: () => {
+    document.getElementById("message").innerHTML = "Loading routines...";
+  },
+  clickHistoryButton: () => {
+    document.getElementById("message").innerHTML = "Loading history...";
+  },
+};

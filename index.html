@@ -1,40 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  
   <head>
-      
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>jsLiftTracker</title>
-      
-      <!-- Downloads JavaScript file; runs after HTML loads -->
-      <script src="index.js" defer></script>
-      
-      <!-- Links CSS file -->
-      <link rel="stylesheet" href="styles.css">
-        
-      <!-- Sets favicon -->
-      <link rel="icon" type="image/ico" href="images/dumbbell_favicon.ico">
-  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jsLiftTracker</title>
+
+    <!-- Downloads JavaScript file; runs after HTML loads -->
+    <script src="index.js" defer></script>
+
+    <!-- Links CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Sets favicon -->
+    <link rel="icon" type="image/ico" href="images/dumbbell_favicon.ico" />
   </head>
-  
+
   <body>
-  
-      <h1 id="appTitle">jsLiftTracker</h1>
-      <hr>
-      <p>
-        <i>A simple exercise logger for the gym</i>
-      </p>
-      
-      <div class="buttons">
-        <button id="routineButton" onclick="clickRoutineButton()">
-          Select Routine
-        </button>
-        <button id="historyButton" onclick="clickHistoryButton()">
-          View History
-        </button>
-      </div>
-      
+    <h1 id="appTitle">jsLiftTracker</h1>
+    <hr />
+    <p>
+      <i>A simple exercise logger for the gym</i>
+    </p>
+
+    <div class="buttons">
+      <button id="routineButton" onclick="buttons.clickRoutineButton()">
+        Select Routine
+      </button>
+      <button id="historyButton" onclick="buttons.clickHistoryButton()">
+        View History
+      </button>
+    </div>
+
+    <p id="message"></p>
   </body>
-  
 </html>
