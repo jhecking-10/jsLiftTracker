@@ -16,6 +16,12 @@ p {
 
 body {
   background-color: slategray;
+  border: 8px solid darkslategray;
+  margin: 0;
+  /* Prevents unwanted scrollbars */
+  box-sizing: border-box;
+  /* 100% Viewport Height */
+  min-height: 100vh;
 }
 
 .buttons {
